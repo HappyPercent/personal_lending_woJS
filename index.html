@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дмитрий Алексеев</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+	<header class="header">
+		<button class="header__icon-menu" aria-label="Открыть меню"></button>
+		<nav class="header__navigation">
+			<ul class="menu">
+				<li class="menu__item"><a href="#">Услуги</a></li>
+				<li class="menu__item"><a href="#" class="menu__item--choosed">Портфолио</a></li>
+				<li class="menu__item"><a href="#">Стоимость</a></li>
+			</ul>
+		</nav>
+		<a class="header__phone" href="tel:89152288703">+7&nbsp;(915)&nbsp;228-87-03</a>
+		<button class="call-button">Заказать звонок</button>
+	</header>
+	<main>
+		<section class="first-section">
+			<div class="first-section__intro">
+				<div class="bg-icons">
+					<span class="bg-icons__bg-icon bg-icons__bg-icon--div1">
+						&lt;div&gt;
+					</span>
+					<span class="bg-icons__bg-icon bg-icons__bg-icon--div2">
+						&lt;div&gt;
+					</span>
+					<span class="bg-icons__bg-icon bg-icons__bg-icon--slash-icon">
+						&lt;/&gt;
+					</span>
+					<span class="bg-icons__bg-icon bg-icons__bg-icon--octothorpe">
+						#
+					</span>
+					<span class="bg-icons__bg-icon bg-icons__bg-icon--curly-brace">
+						{ }
+					</span>
+				</div>
+				<div class="first-section__info">
+					<h1 class="first-section__title">Дмитрий Алексеев</h1>
+					<p class="first-section__desc">Frontend-разработчик и веб-верстальщик</p>
+					<a href="#what_i_do" class="info-button">Узнать больше</a>
+				</div>
+				<img class="first-section__photo" src="icons/photo.png">
+				<svg aria-hidden="true" width="926" height="765" class="first-section__ellipse">
+					<linearGradient id="grad" x1="430" y1="765" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+						<stop style="stop-color:#ff8e5b;stop-opacity:1" offset="0"/>
+						<stop style="stop-color:#ff2f96;stop-opacity:1" offset="100%"/>
+					</linearGradient>
+					<path fill="url(#grad)" style="stroke:none" d="M 286.70709,759.2239 C 162.71132,746.13146 58.72944,711.27752 14.659862,627.52874 -43.083667,477.45657 125.74909,283.23287 194.045,198.77863 310.24553,77.519248 480.1262,-27.9625 649.69911,18.440517 772.73629,54.679195 866.15712,151.05593 912.21926,294.49386 946.43554,452.92408 897.8209,595.31368 764.01234,679.52103 611.68981,760.54302 458.91357,776.26712 286.70709,759.2239 Z"/>
+				</svg>
+			</div>
+		</section>
+		<section class="services">
+			<h2 id="what_i_do" class="title">Что я делаю</h2>
+			<ul class="services__list">
+				<li class="services__example services__example--bg-1">Вёрстка лендинг-страниц и сайтов любой сложности</li>
+				<li class="services__example services__example--bg-2">Адаптивная вёрстка под все браузеры и устройства</li>
+				<li class="services__example services__example--bg-3">Frontend-разработка и программирование</li>
+				<li class="services__example services__example--bg-4">Исправление и доработка существующей версии</li>
+			</ul>
+			<a href="#Price" class="info-button 
+			services__info-button">Узнать стоимость</a>
+		</section>
+		<section class="examples">
+			<h2 class="title">Примеры моих работ</h2>
+			<div class="examples__list">
+				<button class="examples__arrow examples__arrow--left"></button>
+				<div class="examples__item">
+					<img src="icons/work1.png"><span class="examples__text">Сайт психолога Веры Антоновой</span>
+				</div>
+				<div class="examples__item">
+					<a href="#"><img src="icons/work2.png"></a><span class="examples__text">Сайт магазина детской одежды</span>
+				</div>
+				<div class="examples__item">
+					<a href="#"><img src="icons/work3.png"></a><span class="examples__text">Сайт магазина "Рыболов"</span>
+				</div>
+				<button class="examples__arrow examples__arrow--right"></button>
+			</div>
+			<button class="info-button">Заказать проект</button>
+		</section>
+		<section class="gradient">
+			<div class="gradient__block">
+				<p class="gradient__title">Адаптивная вёрстка под все виды устройств и браузеры от 1000 рублей всего за 4 часа.*</p>
+				<p class="gradient__desc">* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально в зависимости от сложности задач.</p>
+			</div>
+		</section>
+	</main>	
+	<footer>
+		<section class="footer-top">
+			<nav>
+				<ul class="footer-top__menu">
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Стоимость</a></li>
+				</ul>
+			</nav>
+			<address class="footer-top__contacts">
+				<a class="footer-top__phone fa fa-phone fa-lg footer-top__icon" href="tel:89152288703">7&nbsp;(915)&nbsp;228-87-03</a>
+				<a class="footer-top__mail fa fa-envelope fa-lg footer-top__icon" href="mailto:dmitri@alekseev.com">dmitri@alekseev.com</a>
+			</address>
+			<div class="socials">
+				<button class="call-button">Заказать звонок</button>
+				<ul class="socials__icons">
+					<li><a class="socials__social-icon--vk socials__social-icon" href="http://vk.com"></a></li>
+					<li><a class="socials__social-icon--fb socials__social-icon" href="http://facebook.com"></a></li>
+					<li><a class="socials__social-icon--twitter socials__social-icon" href="http://twitter.com"></a></li>
+					<li><a class="socials__social-icon--instagram socials__social-icon" href="http://instagram.com"></a></li>
+				</ul>
+			</div>
+		</section>
+		<p class="footer-bottom">
+			&copy; Дмитрий Алексеев, 2016-2018
+		</p>
+	</footer>
+</body>
+</html>
